@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/mainStyle.css">
+    <link rel="stylesheet" href="css/secondaryStyle.css">
+    <title>Priority rules</title>
+</head>
+<body>
+    <ul>
+        <li>css op li-tag</li>
+        <li class="grey">Class 'grey'</li>
+        <li class="grey red">Class 'grey red' ==> red na grey in css</li>
+        <li class="red grey">Class 'red grey' ==> red na grey in css</li>
+        <li id="black-item" class="grey red">Class 'grey red'. id = 'black-item'</li>
+        <li id="black-item" class="grey red" style="background-color: aqua;">Inline style 'aqua'</li>
+        <li class="red grey pink">Class red grey pink ==> Class 'pink' in tweede css</li>
+        <li id="black-item" class="green">Class 'grey red'. id = 'black-item' met 'green' !important</li>
+    </ul>
+</body>
+</html>
